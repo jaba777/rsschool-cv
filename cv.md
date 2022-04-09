@@ -1,7 +1,7 @@
 # Jaba Tskhovrebashvili
 
 ---
-## My Contact Info
+# My Contact Info
 
 - Adress: Tbilisi, Georgia
 - phone: +995 555 30 68 05
@@ -10,11 +10,11 @@
 - GitHub: jaba777
 
  ---
- ## Summary 
+ # Summary 
 
 - My name is jaba, I started to learn programming about one years ago. I am interested in web programming, I want to become Full stack developer but yet I want to study Front-End programming. 
 
-## Skills
+# Skills
 
 - HTML5
 - CSS 3
@@ -23,7 +23,7 @@
 - React basic
 - git version control
 
-## Code Example 
+# Code Example 
 
 ```
 let counter=0;
@@ -53,10 +53,18 @@ console.log(counter);
 console.log(memo);
 ```
 
-## Education
+# Education
 
 - Scientific Cyber Security Association - SCSA Front-end course (2021) Web Programming Front End (HTML, CSS, JS)
 
 - Georgian Technical University - faculty of web programming
 
+# Experience 
+
+- small projects
+## languages
+
+- Georgian - natives
+- English - B2
+- Chinese - HSK2
 

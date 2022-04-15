@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Whisper&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <header id="header">
+            <section>
+                <div class="image"><img src="./image/jaba.jpg" alt="myphoto"></div>
+                <h1>Jaba Tskhovrebashvili</h1>
+            </section>
+           <div class="skills">
+               <ul>
+                   <li><a href="#about">About Me</a></li>
+                   <li><a href="#Education">Education</a></li>
+                   <li><a href="#Skillss">Skills</a></li>
+                   <li><a href="#CodeExample">Code Example</a></li>
+                   <li><a href="#Languages">languages</a></li>
+                   <li><a href="#Projects">Projects</a></li>
+                   <li><a href="#experiance">experiance</a></li>
+                   <li><a href="#Contact">Contact</a></li>
+               </ul>
+           </div>
+        </header>
+
+        <div class="aboutMe-content">
+            <div class="mySkills">
+         <div class="aboutme" id="about">
+          <h2>About Me</h2>
+          <hr>
+          <p>I am Jaba Tskhovrebashvili, 
+            I live in Georgia, Tbilisi. I am 20 years old. When I graduated school I interested in computer programming and I study
+            at Georgian Technical University faculty of informatics. I chose web programming and it is my favourite direction.
+            I want to become full stack developer
+            </p>
+        
+         </div>
+        
+         <div class="aboutme" id="Education">
+            <h2>Education</h2>
+            <hr>
+            <ul>
+                <li>Scientific Cyber Security Association - SCSA Front end courses(2021)-Web Programming Front End (HTML, CSS,JavaScript)</li>
+                <li>Study at Georgian Technical University faculty of informatics (2020-2024)</li>
+                <li>FreecodCamp</li>
+                <li>BitCamp</li>
+            </ul>
+          
+           </div>
+        
+           <div class="aboutme" id="Skillss">
+            <h2>Skills</h2>
+            <hr>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Git</li>
+                <li>Java basic</li>
+                <li>React basic</li>
+            </ul>
+          
+           </div>
+        
+           <div class="aboutme" id="CodeExample">
+            <h2>Code Example</h2>
+            <hr>
+            <pre>
+                <code>
+                function findElement(arr,element,comfaratoRfm){
+                  let index=0;
+                        for(const item of arr){
+                            if(typeof element==='object' && 
+                                element !==null &&
+                                comfaratoRfm(element,item)
+                                ){
+                                return index;
+                            }
+                            if(item===element){
+                                return index;
+                            }
+                            index++;
+                        }
+                        
+                    }
+                    
+                    const arr=[5,3,10,-10,33,51];
+                    console.log(findElement(arr,10));
+                    console.log(findElement(arr,33));
+                    
+                    //const pers={name:'Manu',age:33};
+                    
+                    const objects=[
+                        {name:'Max',age:31},
+                        {name:'Manu',age:33},
+                    ];
+                    
+                    console.log(findElement(objects, {name:'Manu',age:33},function(el,it){
+                        return el.name===it.name;
+                    }));
+                </code>
+            </pre>
+          
+           </div>
+
+           <div class="aboutme" id="Languages">
+            <h2>Languages</h2>
+            <hr>
+            <ul>
+                <li>Georgian-native</li>
+                <li>English-A2</li>
+                <li>Chinese-HSK2</li>
+            </ul>
+          </div>
+        
+          <div class="aboutme" id="Projects">
+            <h2>Projects</h2>
+            <hr>
+            <ul>
+                <li> https://jaba777.github.io/real-project/</li>
+                <li>https://jaba777.github.io/Top-Billioners/</li>
+                <li>https://jaba777.github.io/javascript-Clock/</li>
+            </ul>
+          </div>
+          <div class="aboutme" id="experiance">
+            <h2>experiance</h2>
+            <hr>
+           <p>Working on my own projects</p>
+          </div>
+          <div class="aboutme" id="Contact">
+            <h2>Contact</h2>
+            <hr>
+            <ul style="list-style: none;">
+                <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fas fa-envelope"></i> tskhovreba777@gmail.com</a></li>
+                <li><a href="https://www.facebook.com/?ref=logo"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+            </ul>
+          </div>
+            </div>
+        </div>
+        <footer>
+            
+            <div class="container">
+               <a href="https://rs.school/" target="_blank"><img src="./image/rsphoto.jpg" alt="image"></a>
+            </div>
+
+            <div>
+                <h2>2022 April</h2>
+            </div>
+            
+            <div>
+                <a href="https://github.com/jaba777"><img src="./image/github.png" alt="github"></a>
+            </div>
+
+            <div>
+                <a href="#header">Home</a>
+            </div>
+            
+            
+        </footer>
+    </main>
+</body>
+</html>

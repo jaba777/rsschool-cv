@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+header section{
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header section h1{
+   font-size: 2.6rem;
+   font-family: 'Quicksand';
+   color: rgb(247, 232, 232);
+} 
+
+header section .image{
+    width: 200px;
+    height: 200px;
+    
+}
+
+header section .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-left: 4px solid rgb(9, 76, 163);
+}
+
+.skills{
+    padding: 2rem;
+}
+
+.skills ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.skills ul li{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: background-color 1.2s linear;
+    cursor: pointer;
+}
+
+.skills ul li a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.skills ul li:hover,
+.skills ul li:active{
+    background-color: rgb(5, 94, 153);
+}
+
+.aboutMe-content{
+   margin-top: 2rem;
+   background-color: rgb(219 224 221);
+}
+
+.aboutMe-content .mySkills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 880px;
+    margin: auto;
+}
+
+.aboutMe-content .mySkills .aboutme{
+    margin-top: 1.2rem;
+    font-family: 'Quicksand';
+    width: 880px;
+    font-weight: bold;
+}
+
+.aboutMe-content .mySkills .aboutme h1{
+    color: rgb(255, 115, 0);
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.aboutMe-content .mySkills .aboutme hr{
+    border-top: 2px solid rgb(255, 115, 0);
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.aboutMe-content .mySkills .aboutme p{ 
+    margin-left: 5px;
+    line-height: 1.5;
+    font-weight: 800;
+    color: black;
+    padding: 5px 15px;
+}
+
+.aboutMe-content .mySkills .aboutme ul{
+    padding: 5px 25px;
+    list-style: circle;
+    line-height: 1.5;
+}
+
+.aboutMe-content .mySkills .aboutme pre{
+    margin: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.aboutMe-content .mySkills .aboutme pre code{
+    margin: 0;
+}
+
+.aboutMe-content .mySkills #Contact ul li{
+    margin-top: 15px;
+}
+
+.aboutMe-content .mySkills #Contact ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.aboutMe-content .mySkills #Contact ul li a i{
+    font-size: 1.3rem;
+}
+
+
+footer{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer div{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+
+footer div a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+footer h3{
+    color: #fff;
+}

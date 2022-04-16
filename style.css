@@ -151,15 +151,23 @@ footer{
     background-color: #000;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     bottom: 0;
     left: 0;
     right: 0;
+    color: #fff;
 }
 
 footer div{
     width: 100px;
     height: 100px;
     padding: 15px;
+}
+
+footer div a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
 footer div a img{
@@ -170,4 +178,5 @@ footer div a img{
 
 footer h3{
     color: #fff;
+    vertical-align: middle;
 }
